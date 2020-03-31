@@ -8,10 +8,13 @@ import { AboutComponent } from './about/about.component';
 import { BlogComponent } from './blog/blog.component';
 import { BlogGridComponent } from './blog-grid/blog-grid.component';
 import { SliderComponent } from './slider/slider.component';
+import { ManagerComponent } from './manager/manager.component';
+
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, AboutComponent, BlogComponent, BlogGridComponent, SliderComponent ],
-  bootstrap:    [ AppComponent ]
+  declarations: [ AppComponent, HelloComponent, AboutComponent, BlogComponent, BlogGridComponent, SliderComponent, ManagerComponent ],
+  bootstrap:    [ AppComponent ],
+  
 })
 export class AppModule { }
